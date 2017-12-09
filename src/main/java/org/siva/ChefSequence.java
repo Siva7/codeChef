@@ -3,24 +3,21 @@ package org.siva;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class modDistance {
+class ChefSequence {
 
 	public static void main(String[] args) throws Exception, Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int noTS = Integer.parseInt(br.readLine());
+		String seq,chefSeq;
+		
 		for (int i=0;i<noTS;i++){
+			br.readLine();
+			chefSeq=br.readLine();
+			br.readLine();
+			seq=br.readLine();
+			if (chefSeq.contains(seq)){System.out.println("Yes");}else{System.out.println("No");}
 			
 		}
 	}
 
-
-	public static int[] stringArrayToIntArray(String[] arg){
-		int stringArrayLength = arg.length;
-		int[] intArray = new int[stringArrayLength];
-		for(int i=0;i<stringArrayLength;i++){intArray[i]=Integer.parseInt(arg[i]);}
-		return intArray;
-		
-	}
-	
 }
-	
