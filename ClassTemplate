@@ -3,17 +3,21 @@ package org.siva;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+private BufferedReader;
+private 
 public class modDistance {
 
 	public static void main(String[] args) throws Exception, Exception {
+	
+	}
+
+
+	public static getNofTestCases(){
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int noTS = Integer.parseInt(br.readLine());
 		for (int i=0;i<noTS;i++){
 			
-		}
-	}
-
-
+		}}
 	public static int[] stringArrayToIntArray(String[] arg){
 		int stringArrayLength = arg.length;
 		int[] intArray = new int[stringArrayLength];
